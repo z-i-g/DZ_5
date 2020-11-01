@@ -1,14 +1,8 @@
-package ru.iteco.structural.adapters.first;
+package ru.iteco.structural.adapters;
 
 import ru.iteco.structural.DbUserEntity;
 import ru.iteco.structural.DbUserInfoEntity;
-
-/**
- * Target.
- *
- * @author Ilya_Sukhachev
- */
-public interface TargetFirstOrm {
+public interface Target {
 
     void createUser(DbUserEntity entity);
 
@@ -25,4 +19,6 @@ public interface TargetFirstOrm {
     void updateUserInfo(DbUserInfoEntity entity);
 
     void deleteUserInfo(DbUserInfoEntity entity);
+
+
 }
